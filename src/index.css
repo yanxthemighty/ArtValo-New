@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-artvalo-bg: #F8F6F3;
+  --color-artvalo-card: #F0EBE4;
+  --color-artvalo-accent: #C65D3D;
+  --color-artvalo-secondary: #7A9D8F;
+  --color-artvalo-ink: #2D2D2D;
+  --color-artvalo-muted: #6B6B6B;
+}
+
+@layer base {
+  body {
+    @apply bg-artvalo-bg text-artvalo-ink font-sans antialiased;
+  }
+}
+
+.paper-texture {
+  background-color: #F8F6F3;
+  background-image: radial-gradient(#E5E0D8 0.5px, transparent 0.5px);
+  background-size: 20px 20px;
+}
+
+.av-watermark {
+  position: absolute;
+  font-family: var(--font-serif);
+  font-weight: 300;
+  font-size: 20rem;
+  line-height: 1;
+  opacity: 0.03;
+  color: #2D2D2D;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  white-space: nowrap;
+}
+
+.accent-border-l {
+  border-left: 4px solid #C65D3D;
+}
+
+.glass-nav {
+  @apply bg-artvalo-bg/70 backdrop-blur-xl border-b border-artvalo-ink/5;
+}
+
+@keyframes slow-reveal {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slow-reveal {
+  animation: slow-reveal 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+}
