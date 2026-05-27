@@ -1,6 +1,6 @@
 {
   "name": "ArtValo",
-  "description": "Auction Forecasting & Guarantee Pricing for High-Value Art Sales. Data infrastructure for auction houses, guarantors, collectors, and financial stakeholders.",
+  "description": "AI-powered auction forecasting and guarantee pricing infrastructure for high-value art sales. Data-driven intelligence for auction houses, guarantors, collectors, and financial stakeholders.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
