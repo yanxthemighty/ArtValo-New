@@ -132,7 +132,7 @@ export default function App() {
                     transition={{ delay: 0.6, duration: 0.8 }}
                   >
                     <h2 className="font-serif text-4xl md:text-5xl text-artvalo-ink tracking-tight font-medium leading-tight">
-                      Auction Forecasting <br />
+                      AI Auction Forecasting <br />
                       <span className="italic text-artvalo-muted">& Guarantee Pricing</span>
                     </h2>
                   </motion.div>
