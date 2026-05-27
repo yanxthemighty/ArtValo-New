@@ -602,10 +602,10 @@ export default function App() {
               </div>
               <div className="h-[180px]">
                 <MinimalBarChart horizontal data={[
-                  { name: 'Fe', value: 60 },
-                  { name: 'Be', value: 55 },
-                  { name: 'Alg', value: 40 },
-                  { name: 'UX', value: 25 },
+                   { name: 'Fe', value: 60, color: '#C65D3D' },
+                   { name: 'Be', value: 55, color: '#7A9D8F' },
+                   { name: 'Alg', value: 40, color: '#9CA3AF' }, // grey fix
+                   { name: 'UX', value: 25, color: '#D6CFC7' },
                 ]} />
               </div>
             </BentoCard>
