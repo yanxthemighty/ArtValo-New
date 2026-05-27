@@ -132,7 +132,7 @@ export default function App() {
                     transition={{ delay: 0.6, duration: 0.8 }}
                   >
                     <h2 className="font-serif text-4xl md:text-5xl text-artvalo-ink tracking-tight font-medium leading-tight">
-                      AI Auction Forecasting <br />
+                      Auction Forecasting <br />
                       <span className="italic text-artvalo-muted">& Guarantee Pricing</span>
                     </h2>
                   </motion.div>
@@ -143,7 +143,7 @@ export default function App() {
                     transition={{ delay: 0.8, duration: 0.8 }}
                     className="max-w-xl text-lg text-artvalo-muted leading-relaxed font-light"
                   >
-                    Data infrastructure for auction houses, guarantors, and financial stakeholders operating in the global art market.
+                    AI-powered data infrastructure for auction houses, guarantors, and financial stakeholders operating in the global art market.
                   </motion.p>
                 </div>
               </BentoCard>
