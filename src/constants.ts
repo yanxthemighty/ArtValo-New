@@ -23,11 +23,11 @@ export const FOUNDERS = [
     type: 'asian-female-2',
   },
   {
-    name: 'ADITHI RAJESH',
+    name: 'KYLE BOSSONNEY',
     role: 'CTO',
-    background: 'Imperial College London',
-    focus: 'Backend systems and market data infrastructure.',
-    type: 'indian-female',
+    background: 'Oxford MSc Advanced Computer Science | Google',
+    focus: 'AI infrastructure, large-scale systems, and auction forecasting models.',
+    type: 'white-male-sketch',
   },
 ];
 
@@ -41,10 +41,5 @@ export const ADVISORS = [
     name: 'Wenxin Yan',
     role: 'Morgan Stanley VP specializing in market analysis',
     type: 'asian-female-sketch-2',
-  },
-  {
-    name: 'Kyle Bossonney',
-    role: 'Google engineer advising AI-ready infrastructure',
-    type: 'white-male-sketch',
   },
 ];
